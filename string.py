@@ -1,7 +1,12 @@
 string=input("enter a string")
-list
-for char in str:
-   if char not in list:
-       list.append(char)
-res=''.join(list)
-
+li=[]
+for char in string:
+    if char not in l:
+        l.append(char)
+res=''.join(l)
+print(res)
+print(type(res))
+l=['T','H','A','R','U','N']
+res=''.join(l)
+print(res)
+print(type(res))
